@@ -37,7 +37,7 @@ const Forecast = (props) => {
                         />
             </div>
             <div className="temp">
-                <p>{temperatureHigh ? temperatureHigh : <span>Loading...</span>}&#8451;</p>
+                <p>{temperatureHigh ? temperatureHigh : <span>Loading...</span>}°C</p>
             </div>
             <div className="description">
                 <p>{ summary ? summary : <span>Loading...</span>}</p>

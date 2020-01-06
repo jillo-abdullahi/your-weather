@@ -127,7 +127,7 @@ class MainWeather extends Component {
                             <span>{ timezone !== undefined ? timezone : 'Loading...'}</span>
                         </div>
                         <div className="temp">
-                            <span>{ temperature !== undefined ? temperature : 'Loading...'}&#8451;</span>
+                            <span>{ temperature !== undefined ? temperature : 'Loading...'}°C</span>
                         </div>
                         <div className="location-time">
                             <span>{ now !== undefined ? now : 'Loading...'}</span>
