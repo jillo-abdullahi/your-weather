@@ -83,7 +83,7 @@ class MainWeather extends Component {
             return (
                 <div className="progress-bar">
                     <div><FontAwesomeIcon className="cog" icon={faCog} spin/></div>
-                    <div><p>Waiting for Instructions...</p></div>
+                    <div><p>Waiting for location access...</p></div>
                 </div>
 
             )
